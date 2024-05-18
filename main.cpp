@@ -29,13 +29,13 @@ int main()
 
     Node *nodePointer = nullptr;
     if(list.retrieve(12,nodePointer))
-        std::cout << "\t" << nodePointer;
+        std::cout << "\n" << nodePointer;
 
-    list.add(34,nodePointer);
+    list.add(47,nodePointer);
 
     std::cout << "\n";
     list.traverse();
 
-    if(list.search(88))
-        std::cout << "Data found in list";
+    if(list.search(8))
+        std::cout << "\n" << "Data found in list";
 }
