@@ -38,4 +38,9 @@ int main()
 
     if(list.search(8))
         std::cout << "\n" << "Data found in list";
+
+    list.remove(8);
+    
+    std::cout << "\n";
+    list.traverse();
 }
